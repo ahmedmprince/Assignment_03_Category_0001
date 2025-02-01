@@ -4,7 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse4Pets</title>
-    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/da488cad18.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+        <style>
+            .adlam-display-regular {
+                font-family: "ADLaM Display", serif;
+                font-weight: 100;
+                font-style: normal;
+            }
+            .sora-regular {
+                font-family: "Sora", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .customHeroBanner {
+                background-image: url('c1-assets/cat-big.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: right bottom;
+                height: 80vh;
+            }
+            .HeroText h1{
+                padding-top: 10px;
+            }
+
+            .btn:hover{
+                color:#ffffff;
+                background-color: #000000;
+            }
+            button:hover{
+            color:#ffffff;
+            background-color: #f59608;
+        }
+        .fa-bars {
+            display: none;
+        }
+        .trendingSection {
+            background-color: #FFF9F4;
+            margin-top: 80px;
+            padding-top: 25px;
+            padding-bottom: 55px;
+        }
+        .newsLetterSection {
+            left: 0px;
+            right: 0px;
+        }
+        .cardPet p {
+            font-size: 15px;
+        }
+        @media screen and (max-width:576px) {
+            .customHeroBanner {
+                height: 100vh;
+            }
+            .logoText{
+                display: none;
+            }
+            .customNavbar{
+                border-bottom: 1px solid #000000;
+            }
+            .navbar-start .dropdown {
+                display: none;
+            }
+            .navbar-end .btn {
+                display: none;
+            }
+            .fa-bars {
+                display: inline;
+            }
+            .notification,
+            .search {
+                display: none;
+            }
+            .supporttingText {
+                display: none;
+            }
+            .price {
+                color: #ffffff;
+            }
+        }
+        @media screen and (max-width:767px) {
+            footer .customFooter {
+                padding-top: 580px;
+            }
+            #lastCard{
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
     
